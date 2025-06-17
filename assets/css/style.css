@@ -1,11 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* HEADER ZONE */
+
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/wall.png);
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0 10px;
-    max-width: 1200px;
+h1 {
+    font-family: "Sometype Mono", monospace;
+    font-style: italic;
+    font-size: 4rem;
+}
+
+/* MAIN ZONE */
+
+body {
+    background-image: url(../img/cork.png);
+}
+
+.card-title {
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+img {
+    width: 250px;
+    aspect-ratio: 1;
+    margin: 20px;
 }

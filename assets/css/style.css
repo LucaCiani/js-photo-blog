@@ -20,6 +20,12 @@ body {
     background-image: url(../img/cork.png);
 }
 
+.card {
+    max-width: 290px;
+    position: relative;
+    margin: 0 auto;
+}
+
 .card-title {
     font-family: "Edu TAS Beginner", cursive;
 }
@@ -28,4 +34,13 @@ img {
     width: 250px;
     aspect-ratio: 1;
     margin: 20px;
+}
+
+.pin {
+    margin: 0;
+    width: 35px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: -25px;
+    left: 50%;
 }

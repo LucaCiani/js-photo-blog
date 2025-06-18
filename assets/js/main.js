@@ -21,3 +21,9 @@ fetch("https://lanciweb.github.io/demo/api/pictures/")
 const modal = document.querySelector(".my-modal");
 
 const closeModal = document.querySelector(".close");
+
+const card = document.querySelectorAll(".card");
+
+card.addEventListener("click", () => {
+    modal.style.display = "block";
+});

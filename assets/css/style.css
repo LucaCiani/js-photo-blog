@@ -24,12 +24,13 @@ body {
     max-width: 290px;
     position: relative;
     margin: 0 auto;
-    transition-duration: transform 4s !important;
+    transition: transform 0.5s;
 }
 
 .card:hover {
     cursor: pointer;
     transform: scale(1.2) rotateZ(10deg);
+    z-index: 1;
 }
 
 .card-title {

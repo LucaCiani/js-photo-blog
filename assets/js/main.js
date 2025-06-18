@@ -15,3 +15,9 @@ fetch("https://lanciweb.github.io/demo/api/pictures/")
 </div>`;
         });
     });
+
+// MODAL JS
+
+const modal = document.querySelector(".my-modal");
+
+const closeModal = document.querySelector(".close");
